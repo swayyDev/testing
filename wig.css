@@ -1,0 +1,848 @@
+body{
+/* background-color: #f6f7f9;
+*/
+
+}
+.wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+    /* background-color: red;
+    height: 500px; */
+}
+header{
+    background-color: #fff;
+    border-bottom: 1px solid #ebebee;
+    margin-top: -10px;
+}
+header .wrapper{
+    /*padding: 10px 5px;*/
+    overflow: hidden;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+
+}
+    .logo a{
+    color: black;
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 2em;
+    font-family: 'Fredoka One', cursive;
+
+}
+    .logo span{
+    color:rgb(230, 230, 18);
+}
+header form{
+    margin-left: 50px;
+    display: inline-flex;
+    align-items: center;
+}
+header form input{
+    padding: 12px 12px 12px 50px;
+    width: 500px;
+    height: 30px;
+    outline: none;
+    border-radius: 50px;
+    border: none;
+    background-color: #f6f7f9;
+
+}
+header form input::placeholder{
+    font-size: 0.8em;
+    color: #b4b8bb;
+    font-weight: 500;   
+     font-family: 'Raleway', sans-serif;
+
+}
+header form span .fa-search{
+    position: absolute;
+    padding-left: 20px;
+    color: #b4b8bb;
+    font-size: 1.1em;
+}
+ .fa-search{
+    position: absolute;
+    padding-left: 20px;
+    color: #b4b8bb;
+    font-size: 0.9em;
+}
+
+ .a-btn  a{
+    text-decoration: none;
+    padding: 5px ;
+    display: inline-block;
+    color: #000;
+    font-size: 0.9em;
+    font-weight: 800;
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
+  
+
+}
+.a-btn  a:hover{
+    border-bottom: 3px solid black;
+
+}
+ header ul li{ 
+   list-style: none;
+   float: left;
+   text-decoration: none;
+   font-size: 15px;
+}
+header ul li a{ 
+    font-size: 1.4em;
+    position: relative;
+    display: block;
+    text-decoration: none;
+    outline: none;
+    color: #000;
+    margin-top: 20px;
+ }
+ header ul li a span{
+    font-size: 0.3em;
+    color: #fff;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    left:  14px;
+    top: 4px;
+    height: 10px;
+    width: 10px;
+    padding: -2px 2px 5px 2px;
+    text-align: center;
+text-decoration: none;
+    outline: none;
+
+}
+
+
+/*///////////////////////slider///////////////////////////////////////
+///////////////////////////////////////////////////////////////////*/
+
+
+
+.slider{
+    margin: 0 auto;
+    padding: 20px;
+    height: 520px;
+    max-width: 400px;
+    border-bottom: 1px solid #ebebee;
+}
+.slider-heading h2{
+    font-size: 2em;
+    font-weight:800;
+    padding: 10px;
+    
+}
+.slider-items{
+    font-size: 0.9em;
+    text-decoration: none;
+    text-align: left;
+    align-items: left;
+    margin-top: 40px;
+    padding: 10px;
+    margin: 9px;
+    overflow: hidden;
+    justify-content: space-between;
+
+}
+.slider-items h4 a{
+    font-size: 0.6em;
+    text-transform: capitalize;
+    color: #000;
+    font-weight: 800;
+    font-family: 'Poppins', sans-serif;
+  
+
+}
+.slider-items img{
+    width: 19px;
+}
+
+/*///////////////////////////////RANGER//////////////////////////
+//////////////////////////////////////////////////////////////*/
+
+.ranger{
+    justify-content: space-between;
+    align-items: center;   
+    height: 520px;
+    max-width: 700px;
+    border-bottom: 1px solid #ebebee;
+  
+}
+
+.ranger img{
+    width:420px;
+    width: inherit;
+    height:510px;
+    padding: 8px;
+    margin-top: 10px;
+    
+}
+.ranger button{
+color: #fff;
+    outline: none;
+     background-color: #000; 
+    border-radius: 10px;
+    margin-left: 28px;
+    padding: 12px 12px 12px 30px;
+    width: 190px;
+    text-decoration: none;
+    font-weight: bold; 
+    border: none;
+    margin-top: 10px;
+    text-align: center;
+    float: center;
+    margin-bottom: 23px;
+}
+.ranger button ion-icon{
+    float: left;
+    font-size:22px;
+    color: #fff;
+    font-weight: bolder;
+}
+.ranger .carousel-indicators li{
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background-color: #fff;
+}
+.ranger button a{
+  color: #fff;
+}
+.ranger h3{
+  font-size: 45px;
+  font-family: 'Poppins',sans-serif;
+  text-transform: capitalize;
+  font-weight: bold;
+  color: #fff;
+
+}
+.ranger p{
+  
+  font-family: 'Poppins',sans-serif;
+  text-transform: capitalize;
+}
+
+
+
+
+
+
+
+/*///////////////////////TRENDING///////////////////////////////////
+/////////////////////////////////////////////////////////////////
+*/
+
+
+.trending{
+    height: 520px;
+border-bottom: 1px solid #ebebee;
+  margin: 0 auto;
+  border-left:  2px solid #ebebee;
+  border-right:  2px solid #ebebee;
+
+
+
+}
+.trending h5{
+  margin-top: 40px;
+  font-weight: 800;
+  font-size:1.6em;
+  font-family: 'Poppins', sans-serif;
+}
+.trending h5 ion-icon{
+  color:#FF9200; 
+  }
+  .trending h4{
+ font-family: 'Raleway', sans-serif;
+ font-size: 1.3em;
+ font-weight: bold;
+}
+.trending .imageBox{
+  border-radius: 5px;
+  background:#fff;
+  height: 400px;
+  box-shadow: 3px 3px 3px #E8DDFF;
+  margin-top:10px;
+  margin: 8px;
+  overflow: hidden;
+  width: 250px;
+  margin-right: 20px;
+  align-items: center;
+}
+/*.trending .imageBox img{
+   height: 250%;
+  border-radius: 5px 5px 0px 0px;
+}
+*/
+.trending img{
+   height: 390%;
+   width: 310px;
+/*   transform: translate(0,-5%) rotate(-24deg);
+*/   margin-top: 50px;
+margin-bottom: 20px;
+}
+.trending .carousel-indicators li{
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background-color: #000;
+  margin-top: 50px;
+}
+.trending button{
+color: #fff;
+    outline: none;
+    background-color:  #414141;
+    border-radius: 10px;
+    margin-right: 30px;
+    padding: 14px 9px 14px 20px;
+    width: 200px;    
+    text-decoration: none;
+    font-weight: bold; 
+    transition: 1s;
+    border: none;
+    margin-top: 10px;
+    margin-left: 45px;
+}
+.trending button ion-icon{
+    float: left;
+    font-size:22px;
+    color: #fff;
+    font-weight: bolder;
+}
+.trending button input{
+    float: left;
+    font-size:22px;
+    color: #FF0404;
+    background-color: #FF0404;
+    width: 22px;
+    height: 22px;
+    outline: none;
+}
+.trending button input::type{
+   
+    color: #FF0404;
+    background-color: #FF0404;
+    outline: none;
+}
+
+
+/*////////////////////////category//////////////////////////////////
+/////////////////////////////////////////////////////////////////
+
+*/
+
+
+
+.category
+{
+/*justify-content: space-between;
+display: flex;
+overflow: hidden;*/
+ background-color: #fff;
+border-top: 1px solid lightgrey;
+ border-bottom: 2px solid lightgrey;
+ 
+}
+.category h3{
+    font-weight: 800;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 20px;
+    padding-top: 40px;
+
+}
+.category .a-btn{
+    padding: 10px ;
+    justify-content: space-between;
+    margin-top: -10px;
+}
+
+.category button{
+    color: #000;
+    outline: none;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-right: 90px;
+    padding: 12px 25px;
+    width: 150px;
+   box-shadow: 5px 5px 5px #b4b8bb;    
+    text-decoration: none;
+    font-weight: bold; 
+    transition: 1s;
+    border: none;
+    margin-top: 10px;
+   }
+  .category button:hover{
+     background-color:#C1C9FF;
+   color: white;
+   }
+   .category .a-btn a{
+    color:  #000;
+    margin-left: 75px;
+    
+}
+
+/*///////////////////////////////MENPIC/////////////////////////
+//////////////////////////////////////////////////////////////
+*/
+
+.men-pic{
+    background-color: #f6f7f9;
+      margin: 0px;
+    border-right: 2px solid lightgrey;
+    border-left: 2px solid lightgrey;
+
+
+
+}
+.img-container{
+  border-radius: 5px;
+  background:#fff;
+  height: 500px;
+  box-shadow: 3px 3px 3px #E8DDFF;
+  margin-top:10px;
+  margin: 8px;
+  overflow: hidden;
+  width: 250px;
+  margin-right: 20px;
+  align-items: center;    
+}
+.men-pic .img-container{
+    align-items: center;
+    margin: 15px;
+    overflow: hidden;
+    margin-right: 28px;
+
+}
+.men-pic .img-container img{
+  height: 350px;
+  width: inherit;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.men-pic .img-container h1{
+  font-size: 15px;
+  text-align: left;
+  font-family: sans-serif;
+  color:#000; 
+  text-align: center;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.icons .fa-heart{
+  color: black;
+    background: white;
+    position: absolute;
+    z-index: 99;
+    text-align: center;
+    padding: 10px;
+    border-radius: 50px;
+   cursor: pointer;
+   margin-top: -360px;
+    margin-left: 200px;
+} 
+
+
+.men-pic .img-container span{
+  color: black;
+    background: #f6f7f9;
+    position: absolute;
+    z-index: 99;
+    text-align: center;
+    padding: 10px;
+    border-radius: 50px; cursor: pointer;
+   margin-top: -360px;
+    margin-left: 200px;
+} 
+
+ .img-container button{
+    color: #fff;
+    outline: none;
+     background-color: #000; 
+    border-radius: 10px;
+    margin-left: 28px;
+    padding: 12px 12px 12px 30px;
+    width: 190px;
+   box-shadow: 5px 5px 5px #b4b8bb;    
+    text-decoration: none;
+    font-weight: bold; 
+    border: none;
+    margin-top: 10px;
+    text-align: center;
+    float: center;
+    font-family: 'Poppins', sans-serif;
+}
+.icons button ion-icon{
+    float: left;
+    font-size:22px;
+    color: #fff;
+    font-weight: bolder;
+
+}
+
+
+
+
+
+
+
+/*/////////////////////////////category-women//////////////////////////////
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+*/
+.category-women
+{
+/*justify-content: space-between;
+display: flexbox;
+overflow: hidden;*/
+ background-color: #fff;
+ border-top: 1px solid lightgrey;
+ border-bottom: 2px solid lightgrey;
+ display: none;
+
+ 
+}
+.category-women h3{
+    font-weight: 800;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 20px;
+    padding-top: 40px;
+
+}
+.category-women .a-btn{
+    padding: 10px ;
+    justify-content: space-between;
+    margin-top: -10px;
+   
+}
+
+.category-women button{
+    color: #000;
+    outline: none;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-right: 90px;
+    padding: 12px 25px;
+    width: 150px;
+   box-shadow: 5px 5px 5px #b4b8bb;    
+    text-decoration: none;
+    font-weight: bold; 
+    transition: 1s;
+    border: none;
+    margin-top: 10px;
+   }
+  .category-women button:hover{
+     background-color:#C1C9FF;
+   color: white;
+   }
+   .category-women .a-btn a{
+    color:  #000;
+    margin-left: 75px;
+    
+}
+
+/*///////////////////////////////WOWENPIC/////////////////////////
+//////////////////////////////////////////////////////////////
+*/
+
+.Women-pic{
+    background-color: #f6f7f9;
+      margin: 0px;
+       border-left: 2px solid lightgrey;
+    border-right: 2px solid lightgrey;
+}
+.img-container{
+  border-radius: 5px;
+  background:#fff;
+  height: 500px;
+  box-shadow: 3px 3px 3px #E8DDFF;
+  margin-top:10px;
+  margin: 8px;
+  overflow: hidden;
+  width: 250px;
+  margin-right: 20px;
+  align-items: center;    
+}
+.Women-pic .img-container{
+    align-items: center;
+    margin: 15px;
+    overflow: hidden;
+    margin-right: 28px;
+
+}
+.Women-pic .img-container img{
+  height: 350px;
+  width: inherit;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.Women-pic .img-container h1{
+  font-size: 15px;
+  text-align: left;
+  font-family: sans-serif;
+  color:#000; 
+  text-align: center;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.icons .fa-heart{
+  color: black;
+    background: white;
+    position: absolute;
+    z-index: 99;
+    text-align: center;
+    padding: 10px;
+    border-radius: 50px;
+   cursor: pointer;
+   margin-top: -360px;
+    margin-left: 200px;
+} 
+
+
+.Women-pic .img-container span{
+  color: black;
+    background: #f6f7f9;
+    position: absolute;
+    z-index: 99;
+    text-align: center;
+    padding: 10px;
+    border-radius: 50px; cursor: pointer;
+   margin-top: -360px;
+    margin-left: 200px;
+} 
+
+ .img-container button{
+    color: #fff;
+    outline: none;
+     background-color: #000; 
+    border-radius: 10px;
+    margin-left: 28px;
+    padding: 12px 12px 12px 30px;
+    width: 190px;
+   box-shadow: 5px 5px 5px #b4b8bb;    
+    text-decoration: none;
+    font-weight: bold; 
+    border: none;
+    margin-top: 10px;
+    text-align: center;
+    float: center;
+    font-family: 'Poppins', sans-serif;
+}
+.icons button ion-icon{
+    float: left;
+    font-size:22px;
+    color: #fff;
+    font-weight: bolder;
+
+}
+
+
+
+
+
+
+/*/////////////categoryshoe///////////////////////////////////////////////////
+///////////////////////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
+.category-shoe
+{
+/*justify-content: space-between;
+display: flexbox;
+overflow: hidden;*/
+ background-color: #fff;
+border-top: 1px solid lightgrey;
+ border-bottom: 2px solid lightgrey;
+ display: none;
+ 
+
+ 
+}
+.category-shoe h3{
+    font-weight: 800;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 20px;
+    padding-top: 40px;
+
+}
+.category-shoe .a-btn{
+    padding: 10px ;
+    justify-content: space-between;
+    margin-top: -10px;
+   
+}
+
+.category-shoe button{
+    color: #000;
+    outline: none;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-right: 90px;
+    padding: 12px 25px;
+    width: 150px;
+   box-shadow: 5px 5px 5px #b4b8bb;    
+    text-decoration: none;
+    font-weight: bold; 
+    transition: 1s;
+    border: none;
+    margin-top: 10px;
+   }
+  .category-shoe button:hover{
+     background-color:#C1C9FF;
+   color: white;
+   }
+   .category-shoe .a-btn a{
+    color:  #000;
+    margin-left: 75px;
+    
+}
+
+/*///////////////////////////////SHOEPIC/////////////////////////
+//////////////////////////////////////////////////////////////
+*/
+
+.shoe-pic{
+    background-color: #f6f7f9;
+      margin: 0px;
+       border-left: 2px solid lightgrey;
+    border-right: 2px solid lightgrey;
+}
+}
+.img-container{
+  border-radius: 5px;
+  background:#fff;
+  height: 500px;
+  box-shadow: 3px 3px 3px #E8DDFF;
+  margin-top:10px;
+  margin: 8px;
+  overflow: hidden;
+  width: 250px;
+  margin-right: 20px;
+  align-items: center;    
+}
+.shoe-pic .img-container{
+    align-items: center;
+    margin: 15px;
+    overflow: hidden;
+    margin-right: 28px;
+
+}
+.shoe-pic .img-container img{
+  height: 350px;
+  width: inherit;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.shoe-pic .img-container h1{
+  font-size: 15px;
+  text-align: left;
+  font-family: sans-serif;
+  color:#000; 
+  text-align: center;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.icons .fa-heart{
+  color: black;
+    background: white;
+    position: absolute;
+    z-index: 99;
+    text-align: center;
+    padding: 10px;
+    border-radius: 50px;
+   cursor: pointer;
+   margin-top: -360px;
+    margin-left: 200px;
+} 
+
+
+.shoe-pic .img-container span{
+  color: black;
+    background: #f6f7f9;
+    position: absolute;
+    z-index: 99;
+    text-align: center;
+    padding: 10px;
+    border-radius: 50px; cursor: pointer;
+   margin-top: -360px;
+    margin-left: 200px;
+} 
+
+ .img-container button{
+    color: #fff;
+    outline: none;
+     background-color: #000; 
+    border-radius: 10px;
+    margin-left: 28px;
+    padding: 12px 12px 12px 30px;
+    width: 190px;
+   box-shadow: 5px 5px 5px #b4b8bb;    
+    text-decoration: none;
+    font-weight: bold; 
+    border: none;
+    margin-top: 10px;
+    text-align: center;
+    float: center;
+    font-family: 'Poppins', sans-serif;
+}
+.icons button ion-icon{
+    float: left;
+    font-size:22px;
+    color: #fff;
+    font-weight: bolder;
+
+}
+.bottom-footer{
+  margin: 0;
+  margin-top: 50px;
+  max-width: 1200px;
+}
+.bottom-footer h3{
+  font-size: 50px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;
+}
+.bottom-footer p{
+  font-family: sans-serif;
+}
+.bottom-footer button{
+  color: #fff;
+  background-color: #000;
+  outline: none;
+  border: none;
+  padding: 15px 10px 15px 10px;
+  margin-left: 20px;
+   color: #fff;
+    outline: none;
+    border-radius: 5px;
+   box-shadow: 5px 5px 5px #b4b8bb;    
+    font-weight: bold; 
+    font-family: 'Poppins', sans-serif;
+}
+.bottom-footer button:hover{
+  background-color: #000;
+  color: black;
+}
+.bottom-footer button a{
+  color: #fff;
+  text-transform: capitalize;
+}
+footer{
+  padding: 14px;
+  margin: 0;
+  max-width:1200px;
+}
+footer h3{
+  font-size:14px;
+  text-transform: capitalize;
+  margin-top: 19px; 
+}
+
+
+
+
+
+
+
